@@ -407,3 +407,97 @@ button.normal:hover {
   font-weight: 800;
   font-size: 25px;
 }
+
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(Banner/b14.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+
+#newsletter h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+#newsletter p {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(235, 192, 192);
+}
+
+#newsletter p span {
+  color: orange;
+}
+
+#newsletter input {
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: #045230;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+#newsletter button {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #09ce78;
+}
+
+#newsletter button:hover {
+  background-color: #e93443;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logo {
+  margin-bottom: 20px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #222;
+  text-decoration: none;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  margin-top: 20px;
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
